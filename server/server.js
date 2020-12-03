@@ -10,7 +10,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(bodyParser.json());
-app.use(express.static(path.resolve(__dirname, '../public')));
+//app.use(express.static(path.resolve(__dirname, '../public')));
 app.use(require('./routes'));
 
 module.exports.clients = [];

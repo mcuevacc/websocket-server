@@ -7,7 +7,7 @@
     "iat": 1516239022
 }
 */
-//var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE0IiwidHlwZSI6InVzZXIiLCJkb21haW4iOiJ2aXRhbHNpZ24uY29tIiwic3ViZG9tYWluIjoiYXBwIiwiaWF0IjoxNTE2MjM5MDIyfQ.fsfHXNluB7Aw-CyPbp2iT6gj3rEI4sis8iTByMjkDvg";
+var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE0IiwidHlwZSI6InVzZXIiLCJkb21haW4iOiJ2aXRhbHNpZ24uY29tIiwic3ViZG9tYWluIjoiYXBwIiwiaWF0IjoxNTE2MjM5MDIyfQ.fsfHXNluB7Aw-CyPbp2iT6gj3rEI4sis8iTByMjkDvg";
 /*
 {
     "id": "254",
@@ -25,9 +25,9 @@
     "iat": 1516239022
 }
 */
-var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb21haW4iOiJ2aXRhbHNpZ24uY29tIiwic3ViZG9tYWluIjoiYXBwIiwiaWF0IjoxNTE2MjM5MDIyfQ.3b-9mPc6mZaIQpJ5ja4IqGQuFy77gw2nu4pu6hW4tW0";
+//var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb21haW4iOiJ2aXRhbHNpZ24uY29tIiwic3ViZG9tYWluIjoiYXBwIiwiaWF0IjoxNTE2MjM5MDIyfQ.3b-9mPc6mZaIQpJ5ja4IqGQuFy77gw2nu4pu6hW4tW0";
 
-var socket = io('http://localhost:3000', {
+var socket = io('http://localhost:3001', {
     query: {
         auth: token
     }

@@ -14,7 +14,7 @@ const getDomains = (origin, data) => {
     let subdomain = null;
 
     if (origin) {
-        let host = /[a-zA-Z0-9.]+[.]{1}[a-zA-Z0-9]+/i.exec(origin)[0];
+        let host = /[a-zA-Z0-9.]+[:.]{1}[a-zA-Z0-9]+/i.exec(origin)[0];
         domain = findAuthorizedDomain(host);
         if (domain)
             subdomain = host.substring(0, host.length - domain.length - 1);
